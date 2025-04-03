@@ -61,14 +61,23 @@ Why Use ANSI Escape Codes?
 🌟Code	Effect	Example Usage in Python	Output🌟
 
 ⭐\033[0m	Reset formatting	print("\033[0mReset Text")	Reset Text
+
 ⭐\033[1m	Bold text	print("\033[1mBold Text\033[0m")	Bold Text
+
 ⭐\033[3m	Italic text	print("\033[3mItalic Text\033[0m")	Italic Text
+
 ⭐\033[4m	Underlined text	print("\033[4mUnderlined Text\033[0m")	Underlined Text
+
 ⭐\033[31m	Red text	print("\033[31mRed Text\033[0m")	🔴 Red Text
+
 ⭐\033[32m	Green text	print("\033[32mGreen Text\033[0m")	🟢 Green Text
+
 ⭐\033[33m	Yellow text	print("\033[33mYellow Text\033[0m")	🟡 Yellow Text
+
 ⭐\033[34m	Blue text	print("\033[34mBlue Text\033[0m")	🔵 Blue Text
+
 ⭐\033[1;33m	Bold Yellow	print("\033[1;33mBold Yellow\033[0m")	🟡 Bold Yellow
+
 ⭐\033[1;34m	Bold Blue	print("\033[1;34mBold Blue\033[0m")	🔵 Bold Blue
 
 🌟Why Use \033[0m?
@@ -96,12 +105,19 @@ Now, the second line returns to default formatting.
 🌟Code	Color
 
 ⭐\033[30m	Black
+
 ⭐\033[31m	Red
+
 ⭐\033[32m	Green
+
 ⭐\033[33m	Yellow
+
 ⭐\033[34m	Blue
+
 ⭐\033[35m	Magenta
+
 ⭐\033[36m	Cyan
+
 ⭐\033[37m	White
 
 🌟Conclusion
