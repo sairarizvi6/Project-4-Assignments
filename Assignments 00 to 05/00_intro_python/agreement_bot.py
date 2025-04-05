@@ -3,12 +3,16 @@
 # (the blank should be filled in with the user-inputted animal, of course).
 
 
-def main(fav_animal: str) -> str:
-    return f"My favorite animal is also {fav_animal}!"
+def main():
 
-user_input = input("What's your favorite animal? ")
-result = main(user_input)
-print(result)
+    animal = input("\033[1;3m What's your favorite animal? \033[0m")
+
+
+    print(f"My favorite animal is also {animal}!")
+
+
+if __name__ == '__main__':
+    main()
 
 
 
